@@ -83,7 +83,7 @@ export default function Home() {
                     {/* <About /> */}
 
                     <Contect />
-                    <hr />
+                    
                 </div>
             </div>
         </div>
