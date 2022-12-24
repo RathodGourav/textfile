@@ -62,7 +62,7 @@ export default function Home() {
         <Router>
         <div >
             <div className='bg-dark '>
-                <div className='bg-dark '>
+                <div className='bg-dark '>Hellooooooo
                     <button type="button" className=" btn btn-outline-success m-3" onClick={darkMode} >{btntext}</button>
                     <Navbar className='' title="Texthelper" aboutText="About Us" homeText="Home" style={dark} />
 
