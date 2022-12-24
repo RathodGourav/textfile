@@ -83,6 +83,7 @@ export default function Home() {
                     {/* <About /> */}
 
                     <Contect />
+                    <h1>Hello </h1>
                 </div>
             </div>
         </div>
