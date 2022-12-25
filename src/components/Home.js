@@ -5,13 +5,7 @@ import React, { useState } from 'react';
 import Alert from './Alert'
 import Contect from './Contect';
 import 'F:/reactproject/textfile/src/App.css';
-import { createRoot } from "react-dom/client";
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Link,
-} from "react-router-dom";
+
 
 export default function Home() {
 
@@ -59,7 +53,7 @@ export default function Home() {
     }
 
     return (
-        <Router>
+        
         <div >
             <div className='bg-dark '>
                 <div className='bg-dark '>
@@ -72,21 +66,17 @@ export default function Home() {
 
                 <div className="container-fluid  " style={dark}>
                     
-                    <Routes>
-                        <Route path="/about" element={<About/>}/>
-
-                        <Route path="/home" element={<TextFrom heading="Enter your text here" onButtonClick={alerthendal} />
-                        }>
-                        </Route>
-
-                    </Routes>
-                    {/* <About /> */}
+                    
+                       
+                    
+                    <TextFrom heading="Enter your text here" onButtonClick={alerthendal} /> 
+                     <About />
 
                     <Contect />
                     
                 </div>
             </div>
         </div>
-        </Router>
+        
     );
 }

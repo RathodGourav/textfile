@@ -5,7 +5,7 @@ export default function About() {
 
     return (
         <>
-        <div className='container-fluid'   >
+        <div className='container-fluid'  id='adout' >
             <h2>About Us</h2>
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item">
